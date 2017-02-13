@@ -9,6 +9,6 @@ for linea in lineas:
 	trozos = linea.split(':')
 	usuario = trozos[0]
 	shell = trozos[-1]
-	print 'usuario:'+ usuario, 'shell:'+ shell,
+	print ('usuario:'+ usuario, 'shell:'+ shell,)
 
-print '\nnumero de usuarios:', len(lineas)
+print ('\nnumero de usuarios:', len(lineas))
